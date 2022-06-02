@@ -3,37 +3,56 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
-    background: #020202;
+    width: 85%;
+    background: #e9e6e6;
     padding: 0.5rem;
     border-radius: 0.5rem;
-    /* box-shadow: 0.5rem 0.5rem 0.5rem #00baf9; */
+    border:1px solid black;
+    box-shadow: 0.5rem 0.5rem 0.5rem #bfbfbf;
 }
 .wrapper:hover{
-    box-shadow: 0.5rem 0.5rem 0.5rem #00baf9;
+    box-shadow: 0.5rem 0.5rem 0.5rem #bababa;
     transition: 0.3s;
 }
 .wrapper input{
     font-size: 1.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem ;
-    width: 100%;
-    border: none;
+    width: 85%;
+    border: 1px;
     outline: none;
-    background: rgba(164, 0, 0, 0);
-    color:white;
+    background: rgba(248, 247, 247, 0);
+    color:rgb(0, 0, 0);
 }
 .wrapper .fa-solid{
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 1.5rem;
 }
 .container{
     padding-top: 2rem;
     justify-content: center;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 14rem;
     margin-right: 1rem;
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
 
 
+}
+.download{
+    width: 100%;
+    justify-content: center;
+}
+
+/* Responsive search bar */
+
+@media (max-width: 920px){
+    
+    .wrapper{
+
+        width: 100%;
+    }
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem; 
+    }
 }
